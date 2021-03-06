@@ -1,0 +1,200 @@
+:root {
+  --primary-text:#757575;
+  --title-text:  #212121;
+  --accent:#2196F3 ;
+  --primary-white: #FFFFFF;
+  --primary-background:#2F303A;
+  --secondary-background: #F5F4FA;
+  --footer-accent: rgba(255,255,255,60%);
+  
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text);
+  background-color: var(--primary-white);
+    
+}
+
+.nav-list, .feature-list, .gallery-list, .team-list, .contact-list{
+  list-style: none;
+}
+
+
+/* Логотип */
+
+.logo-web{
+  color: var(--accent) ;
+}
+
+.logo-studio{
+  color: var(--primary-white) ;
+}
+
+.logo-link {
+  color: var(--title-text);
+}
+
+.logo-link, .logo-web, .logo-studio{
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/* Навигация */
+.site-nav .nav-link {
+  text-decoration: none;
+  color: var(--title-text);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+ color: var(--accent);
+} 
+
+/* Контакты в шапке */
+.contact-list .link {
+ text-decoration: none;
+ color: var(--primary-text);
+
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+}
+
+.contact-list .link:hover,
+.contact-list .link:focus {
+ color: var(--accent);
+}
+
+/* стр.Студия/ Баннер */
+.hero-title{
+  color: var(--primary-white);
+  background-color: var(--primary-background);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;  
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/*  Все заголовки  h2 */
+.unit-title{ 
+  color:var(--title-text);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  
+}
+
+/*стр.Студия/ Особенности */
+.feature-title{
+  color: var(--title-text);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;  
+}
+
+.feature-text{
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* стр.Студия/ Команда */
+.team-title{
+  color: var(--title-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+}
+
+.team-text{
+  font-size: 16px;
+  line-height: 1.19px;
+  /* text-align: center; */
+} 
+
+/* стр.Портфолио/фильтры-кнопки */
+
+.filters-list{
+  list-style: none;
+}  
+
+.filter-primary {
+  color: var(--title-text);
+  background-color: var(--secondary-background);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.filter-primary:hover,
+.filter-primary:focus {
+  color: var(--primary-white);
+ background-color: var(--accent); 
+}
+
+.filter-secondary {
+  color: var(--primary-white);
+  background-color: var(--accent);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* стр.Студия/галерея работ */
+
+.work-list{
+  list-style: none;
+}
+
+.work-title{
+ color: var(--title-text);
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 2;
+ letter-spacing: 0.06em; 
+}
+
+.work-text{
+ font-size: 16px;
+ line-height: 1.88;
+}
+
+/* Адрес в подвале */
+.adds-unit,
+.adds-list{
+  list-style: none;
+  background-color: var(--primary-background);
+} 
+ 
+.adds-list .link{
+  text-decoration: none;
+  color: var(--footer-accent);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.adds-list .link:hover,
+.adds-list .link:focus{
+ color: var(--primary-white);
+} 
+
